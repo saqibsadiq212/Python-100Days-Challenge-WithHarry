@@ -1,11 +1,15 @@
 """
-This is for testing Python Arithmetic Operators
+This is for testing Python Strings
 """
 
-print("Addition: ", 5 + 3)
-print("Subtraction: ", 5 - 3)
-print("Multiplication: ", 5 * 3)
-print("Division: ", 5 / 3)
-print("Expotenional: ", 5**3)
-print("Modulus: ", 5 % 3)
-print("Float Division: ", 5 // 3)
+name = "Saqib"
+hobby = """
+        I play a number of games but one thing to mention,
+        "Cricket is one of my most favourite"
+        """
+
+for character in name:
+  print(character)
+
+for character in hobby:
+  print(character)
